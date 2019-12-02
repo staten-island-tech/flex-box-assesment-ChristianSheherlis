@@ -1,0 +1,8 @@
+$colors: (
+    primary: #90CAF9
+);
+
+.flex-parent{
+    height: 70vh;
+    background-color: ($colors);
+}
