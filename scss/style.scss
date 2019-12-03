@@ -1,8 +1,21 @@
-$colors: (
-    primary: #90CAF9
+$maroon: (
+    primary: #510
 );
+@function color($color-name){
+    @return map-get($maroon, $color-name);
+}
+
+body{
+    background-color: rgbacolor(($maroon),0.4);
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
 
 .flex-parent{
     height: 70vh;
-    background-color: ($colors);
 }
