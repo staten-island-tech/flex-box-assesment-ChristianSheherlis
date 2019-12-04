@@ -1,0 +1,6 @@
+$colors: (
+    primary: #590
+);
+@function color($color-name){
+    @return map-get($maroon, $color-name);
+}

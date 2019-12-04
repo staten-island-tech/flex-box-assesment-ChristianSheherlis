@@ -1,13 +1,4 @@
-$maroon: (
-    primary: #510
-);
-@function color($color-name){
-    @return map-get($maroon, $color-name);
-}
-
-body{
-    background-color: rgbacolor(($maroon),0.4);
-}
+@import "./variables.scss";
 
 html{
     margin: 0;
@@ -18,4 +9,14 @@ html{
 
 .flex-parent{
     height: 70vh;
+    margin: 10px;
+    display: flex;
+    background-color: color(primary);
+}
+
+#flex-grow{
+    flex-grow: 1;
+}
+#flex-grow-2{
+    flex-grow: 2;
 }
