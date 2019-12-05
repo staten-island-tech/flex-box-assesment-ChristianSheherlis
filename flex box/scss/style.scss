@@ -12,12 +12,24 @@ html{
     margin: 10px;
     display: flex;
     background-color: color(primary);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.flex-child{
+    background-color: color(secondary);
+    margin: 10px;
+    flex-grow: 1;
 }
 
 #flex-grow{
-    flex-grow: 1;
-    font-size: 1.3rem;
+    align-content: center;
+
 }
 #flex-grow-2{
-    flex-grow: 2;
+
+}
+
+#flex-frog{
+    height: 25vh;
 }
