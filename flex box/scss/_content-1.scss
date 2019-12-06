@@ -1,0 +1,27 @@
+.flex-parent{
+    height: 100vh;
+    margin: 10px;
+    display: flex;
+    background-color: color(primary);
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.flex-child{
+    background-color: color(secondary);
+    margin: 10px;
+    flex-grow: 1;
+    align-content: center;
+}
+
+#flex-grow{
+    align-content: center;
+    font-family: 'Fredoka One', cursive;
+    color: rgba(255,255,255,.7);
+
+}
+
+#flex-frog{
+    height: 25vh;
+}
