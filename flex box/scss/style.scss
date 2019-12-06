@@ -8,7 +8,7 @@ html{
 }
 
 .flex-parent{
-    height: 70vh;
+    height: 100vh;
     margin: 10px;
     display: flex;
     background-color: color(primary);
@@ -24,6 +24,8 @@ html{
 
 #flex-grow{
     align-content: center;
+    font-family: 'Fredoka One', cursive;
+    color: rgba(255,255,255,.7);
 
 }
 #flex-grow-2{
