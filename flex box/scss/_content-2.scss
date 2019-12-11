@@ -1,0 +1,22 @@
+.flex-parent-2{
+    height: 100vh;
+    margin: 10px;
+    display: flex;
+    background-color: color(primary);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content-box{
+    background-color: color(secondary);
+    flex-grow: 1;
+
+}
+
+#frog{
+    margin: 10 0 10 10;
+}
+
+#box{
+    margin: 10 10 10 0;
+}
