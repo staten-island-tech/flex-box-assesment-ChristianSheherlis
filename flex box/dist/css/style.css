@@ -63,4 +63,31 @@ html {
 #box {
   margin: 10 10 10 0;
 }
+
+.army-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.soldier {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#soldier-1 {
+  height: 25rem;
+}
+
+#soldier-2 {
+  height: 25rem;
+}
+
+#soldier-3 {
+  height: 25rem;
+}
 /*# sourceMappingURL=style.css.map */
