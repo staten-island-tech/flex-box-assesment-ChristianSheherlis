@@ -73,6 +73,11 @@ html {
           justify-content: center;
 }
 
+.content-box {
+  font-family: 'Fredoka One', cursive;
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .soldier {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
